@@ -1,0 +1,21 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "model.py",
+    "experiment-name" : "stochastic_depth_spearmintOpt",
+    "likelihood"      : "GAUSSIAN",
+    "variables" : {
+        "depth" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 4,
+            "max"  : 54
+        },
+        "foo" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 0,
+            "max"  : 1
+        }
+    }
+}
+
