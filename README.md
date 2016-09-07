@@ -5,8 +5,11 @@ This code offers a variant of residual networks trained with stochastic depth (h
 
 # Prerequisits
 This code is based on the following:
+
 https://github.com/mechaman/HPOptim
+
 https://github.com/yueatsprograms/Stochastic_Depth
+
 https://github.com/HIPS/Spearmint/
 
 Their dependencies must be installed. Refer to them to details on how to install them.
