@@ -1,0 +1,21 @@
+{
+    "language"        : "PYTHON",
+    "main-file"       : "model.py",
+    "experiment-name" : "stochastic_depth_spearmintOpt_per_groupes",
+    "likelihood"      : "GAUSSIAN",
+    "variables" : {
+        "depth" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 1,
+            "max"  : 54
+        },
+        "batchSize" : {
+            "type" : "INT",
+            "size" : 1,
+            "min"  : 20,
+            "max"  : 500
+        }
+    }
+}
+
